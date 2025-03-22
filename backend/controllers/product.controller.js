@@ -1,4 +1,4 @@
-import Product from "../models/product.model";
+import Product from "../models/product.model.js";
 
 
 export const getAllProducts = async (req, res) => {
@@ -53,3 +53,4 @@ export const postProduct = async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 }
+
