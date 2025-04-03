@@ -16,7 +16,7 @@ app.use("/api/products", Productrouter);
 
 app.listen(PORT, () => {
     connectDB();
-    console.log("Server running on port 3000");
+    console.log("Server running on port " + PORT);
 });
 
 
